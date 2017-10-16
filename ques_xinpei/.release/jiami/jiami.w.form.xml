@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window cvAFN3q" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cvAFN3q" components="$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/windowDialog/windowDialog,$model/UI2/system/components/justep/messageDialog/messageDialog,$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/input/input,">  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cvAFN3q" class="cvAFN3q"/>  
+  <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cvAFN3q" xid="titleBar1" style="background-color:#2894FF;" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;加密信息&quot;}" __cid="cvAFN3q"> 
+    <div class="x-titlebar-left cvAFN3q" xid="left1" __cid="cvAFN3q"/>  
+    <div class="x-titlebar-title cvAFN3q" xid="title1" __cid="cvAFN3q">加密信息</div>  
+    <div class="x-titlebar-right  cvAFN3q" xid="right1" __cid="cvAFN3q">
+      <div class="empty cvAFN3q" __cid="cvAFN3q"/>
+    </div>
+  </div>  
+  <div xid="div1" style="height:15%;" __cid="cvAFN3q" class="cvAFN3q"/>  
+  <div xid="div2" style="text-align:center;" class="h4 cvAFN3q" __cid="cvAFN3q">
+    <label xid="label1" __cid="cvAFN3q" class="cvAFN3q">您的手机机器码：</label>
+  </div>  
+  <div xid="div3" align="center" __cid="cvAFN3q" class="cvAFN3q">
+    <label xid="label2" bind-text="mac.val('mac')" __cid="cvAFN3q" class="cvAFN3q">label</label>
+  </div>  
+  <div xid="div4" class="h5 cvAFN3q" style="text-align:center;font-size:xx-small;font-weight:100;color:#FF0700;" __cid="cvAFN3q">
+    <label xid="label3" __cid="cvAFN3q" class="cvAFN3q">请将此机器码发与相关工作人员以获取激活码</label> 
+  </div>  
+  <div xid="div6" style="height:5%;" __cid="cvAFN3q" class="cvAFN3q"/>
+  <div xid="div5" class="h4 cvAFN3q" style="text-align:center;" __cid="cvAFN3q">
+    <label xid="label4" __cid="cvAFN3q" class="cvAFN3q">请输入您的激活码来激活此软件</label>
+  </div>  
+  <input component="$model/UI2/system/components/justep/input/input" class="form-control center-block cvAFN3q" xid="input1" style="width:90%;" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" __cid="cvAFN3q"/>  
+  <div xid="div7" style="height:5%;" __cid="cvAFN3q" class="cvAFN3q"/>  
+  <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default center-block cvAFN3q" xid="button1" style="width:60%;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:button1Click" data-config="{&quot;label&quot;:&quot;激活&quot;}" __cid="cvAFN3q"> 
+    <i xid="i1" __cid="cvAFN3q" class="cvAFN3q"/>  
+    <span xid="span1" __cid="cvAFN3q" class="cvAFN3q">激活</span>
+  </a>  
+  <span component="$model/UI2/system/components/justep/messageDialog/messageDialog" xid="messageDialog1" data-bind="component:{name:'$model/UI2/system/components/justep/messageDialog/messageDialog'}" data-config="{&quot;message&quot;:&quot;验证成功！&quot;,&quot;title&quot;:&quot;提示&quot;,&quot;type&quot;:&quot;OK&quot;}" __cid="cvAFN3q" class="cvAFN3q">
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal-overlay cvAFN3q" __cid="cvAFN3q"/>
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal cvAFN3q" __cid="cvAFN3q">
+      <xhtml:div class="x-modal-inner cvAFN3q" __cid="cvAFN3q">
+        <xhtml:div class="x-modal-title cvAFN3q" __cid="cvAFN3q">提示</xhtml:div>
+        <xhtml:div class="x-modal-text cvAFN3q" __cid="cvAFN3q">验证成功！</xhtml:div>
+        <xhtml:input class="x-modal-prompt-input cvAFN3q" type="text" __cid="cvAFN3q"/>
+      </xhtml:div>
+      <xhtml:div class="x-modal-buttons cvAFN3q" __cid="cvAFN3q">
+        <xhtml:a class="x-modal-button x-modal-button-bold OK cvAFN3q" value="ok" __cid="cvAFN3q">确定</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold Yes cvAFN3q" value="yes" __cid="cvAFN3q">是</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold No cvAFN3q" value="no" __cid="cvAFN3q">否</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold Cancel cvAFN3q" value="cancel" __cid="cvAFN3q">取消</xhtml:a>
+      </xhtml:div>
+    </xhtml:div>
+  </span>  
+  <span component="$model/UI2/system/components/justep/messageDialog/messageDialog" xid="messageDialog2" data-bind="component:{name:'$model/UI2/system/components/justep/messageDialog/messageDialog'}" data-config="{&quot;message&quot;:&quot;验证失败！&quot;,&quot;title&quot;:&quot;提示&quot;,&quot;type&quot;:&quot;OK&quot;}" __cid="cvAFN3q" class="cvAFN3q">
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal-overlay cvAFN3q" __cid="cvAFN3q"/>
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal cvAFN3q" __cid="cvAFN3q">
+      <xhtml:div class="x-modal-inner cvAFN3q" __cid="cvAFN3q">
+        <xhtml:div class="x-modal-title cvAFN3q" __cid="cvAFN3q">提示</xhtml:div>
+        <xhtml:div class="x-modal-text cvAFN3q" __cid="cvAFN3q">验证失败！</xhtml:div>
+        <xhtml:input class="x-modal-prompt-input cvAFN3q" type="text" __cid="cvAFN3q"/>
+      </xhtml:div>
+      <xhtml:div class="x-modal-buttons cvAFN3q" __cid="cvAFN3q">
+        <xhtml:a class="x-modal-button x-modal-button-bold OK cvAFN3q" value="ok" __cid="cvAFN3q">确定</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold Yes cvAFN3q" value="yes" __cid="cvAFN3q">是</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold No cvAFN3q" value="no" __cid="cvAFN3q">否</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold Cancel cvAFN3q" value="cancel" __cid="cvAFN3q">取消</xhtml:a>
+      </xhtml:div>
+    </xhtml:div>
+  </span>  
+  <span component="$model/UI2/system/components/justep/windowDialog/windowDialog" xid="windowDialog1" data-bind="component:{name:'$model/UI2/system/components/justep/windowDialog/windowDialog'}" data-config="{&quot;src&quot;:&quot;$model/UI2/ques_xinpei/home.w&quot;}" __cid="cvAFN3q" class="cvAFN3q">
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog-overlay cvAFN3q" __cid="cvAFN3q"/>
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog cvAFN3q" style="display:none;" __cid="cvAFN3q">
+      <xhtml:div class="x-dialog-title cvAFN3q" __cid="cvAFN3q">
+        <xhtml:button class="close cvAFN3q" __cid="cvAFN3q">
+          <xhtml:span __cid="cvAFN3q" class="cvAFN3q">×</xhtml:span>
+        </xhtml:button>
+        <xhtml:div class="x-dialog-title-text cvAFN3q" __cid="cvAFN3q"/>
+      </xhtml:div>
+      <xhtml:div class="x-dialog-body cvAFN3q" __cid="cvAFN3q"/>
+    </xhtml:div>
+  </span>
+</div>

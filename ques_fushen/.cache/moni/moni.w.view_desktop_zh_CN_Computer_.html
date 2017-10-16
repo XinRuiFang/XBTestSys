@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window cYn2umy" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cYn2umy" components="$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/scrollView/scrollView,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/data/data,">  
+  <style xmlns="" xmlns:xhtml="http://www.w3.org/1999/xhtml">null</style>  
+  <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cYn2umy" class="cYn2umy"/>  
+  <div xmlns="" component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pd043a302acf7414e90cf4b2c88278f76-iosstatusbar cYn2umy" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cYn2umy"> 
+    <div class="x-panel-top cYn2umy" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cYn2umy"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cYn2umy" xid="titleBar1" style="background-color:#2894FF;color:white;" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;模拟答题&quot;}" __cid="cYn2umy"> 
+        <div class="x-titlebar-left cYn2umy" xid="left1" __cid="cYn2umy"/>  
+        <div class="x-titlebar-title cYn2umy" xid="title1" __cid="cYn2umy">模拟答题</div>  
+        <div class="x-titlebar-right  cYn2umy" xid="right1" __cid="cYn2umy"> 
+          <div class="empty cYn2umy" __cid="cYn2umy"/> 
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content x-scroll-view cYn2umy" xid="content1" _xid="C70FC125C1C00001E4E57FD01F003390" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cYn2umy"> 
+      <div class="x-scroll cYn2umy" component="$model/UI2/system/components/justep/scrollView/scrollView" xid="scrollView1" data-bind="component:{name:'$model/UI2/system/components/justep/scrollView/scrollView'}" __cid="cYn2umy"> 
+        <div class="x-scroll-content cYn2umy" xid="div2" __cid="cYn2umy"> 
+          <ul class="x-list x-list-template hide cYn2umy" component="$model/UI2/system/components/justep/list/list" xid="list1" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'},foreach:{data:$model.foreach_list1($element),afterRender:$model.foreach_afterRender_list1.bind($model,$element)}" data-config="{&quot;data&quot;:&quot;testn&quot;,&quot;limit&quot;:-1}" __cid="cYn2umy"> 
+            <li xid="li1" __cid="cYn2umy" class="cYn2umy" data-bind="event:{click:$model._callModelFn.bind($model, 'li1Click')}"> 
+              <div xid="div4" style="height:80px;border-style:groove groove groove groove;border-width:thin thin thin thin;border-color:#E3E3E3 #E3E3E3 #E3E3E3 #E3E3E3;width:90%;" class="center-block cYn2umy" __cid="cYn2umy" data-bind="value:$object.val(&quot;id&quot;)"> 
+                <div xid="div5" style="height:50%;width:80%;" class="center-block cYn2umy" __cid="cYn2umy"> 
+                  <div xid="div6" style="height:50%;" __cid="cYn2umy" class="cYn2umy"/>  
+                  <label xid="label1" style="font-size:medium;" __cid="cYn2umy" class="cYn2umy" data-bind="text:ref('name')"/> 
+                </div>  
+                <div xid="div7" style="height:50%;width:80%;" class="center-block cYn2umy" __cid="cYn2umy"> 
+                  <div xid="div1" style="height:30%;" __cid="cYn2umy" class="cYn2umy"/>  
+                  <label xid="label2" style="float:right;color:#2894FF;font-weight:200;" __cid="cYn2umy" class="cYn2umy" data-bind="text:ref('mark')">label</label> 
+                </div> 
+              </div> 
+            </li> 
+          </ul> 
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-bottom cYn2umy" xid="bottom1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cYn2umy"/>  
+    <style __cid="cYn2umy" class="cYn2umy">.x-panel.pd043a302acf7414e90cf4b2c88278f76-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pd043a302acf7414e90cf4b2c88278f76-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pd043a302acf7414e90cf4b2c88278f76-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pd043a302acf7414e90cf4b2c88278f76-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pd043a302acf7414e90cf4b2c88278f76-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pd043a302acf7414e90cf4b2c88278f76-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pd043a302acf7414e90cf4b2c88278f76-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pd043a302acf7414e90cf4b2c88278f76-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pd043a302acf7414e90cf4b2c88278f76-iosstatusbar &gt;.x-panel-content {top: 48px;}</style> 
+  </div> 
+</div>

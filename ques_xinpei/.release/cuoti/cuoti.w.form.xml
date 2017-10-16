@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window cQjuQBn" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cQjuQBn" components="$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/titleBar/titleBar,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">@charset "UTF-8"; .a_demo_five.cQjuQBn{background-color: rgb(59, 179, 224); width: 150px; display: inline-block; font-family: "Open Sans", sans-serif; font-size: 12px; text-decoration: none; color: rgb(255, 255, 255); position: relative; margin-top: 40px; padding-bottom: 10px; padding-top: 10px; background-image: linear-gradient(bottom, rgb(44, 160, 202) 0%, rgb(62, 184, 229) 100%); background-image: -o-linear-gradient(bottom, rgb(44, 160, 202) 0%, rgb(62, 184, 229) 100%); background-image: -moz-linear-gradient(bottom, rgb(44, 160, 202) 0%, rgb(62, 184, 229) 100%); background-image: -webkit-linear-gradient(bottom, rgb(44, 160, 202) 0%, rgb(62, 184, 229) 100%); background-image: -ms-linear-gradient(bottom, rgb(44, 160, 202) 0%, rgb(62, 184, 229) 100%); background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgb(44, 160, 202)), color-stop(1, rgb(62, 184, 229))); -webkit-border-bottom-right-radius: 5px; -webkit-border-bottom-left-radius: 5px; -moz-border-radius-bottomright: 5px; -moz-border-radius-bottomleft: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; -webkit-box-shadow: inset 0px 1px 0px rgb(42, 183, 236) 0px 5px 0px 0px rgb(21, 103, 133) 0px 10px 5px rgb(153, 153, 153); -moz-box-shadow: inset 0px 1px 0px rgb(42, 183, 236) 0px 5px 0px 0px rgb(21, 103, 133) 0px 10px 5px rgb(153, 153, 153); -o-box-shadow: inset 0px 1px 0px rgb(42, 183, 236) 0px 5px 0px 0px rgb(21, 103, 133) 0px 10px 5px rgb(153, 153, 153); box-shadow: inset 0px 1px 0px rgb(42, 183, 236) 0px 5px 0px 0px rgb(21, 103, 133) 0px 10px 5px rgb(153, 153, 153)} .a_demo_five.cQjuQBn:active{top: 0px; background-image: linear-gradient(bottom, rgb(62, 184, 229) 0%, rgb(44, 160, 202) 100%); background-image: -o-linear-gradient(bottom, rgb(62, 184, 229) 0%, rgb(44, 160, 202) 100%); background-image: -moz-linear-gradient(bottom, rgb(62, 184, 229) 0%, rgb(44, 160, 202) 100%); background-image: -webkit-linear-gradient(bottom, rgb(62, 184, 229) 0%, rgb(44, 160, 202) 100%); background-image: -ms-linear-gradient(bottom, rgb(62, 184, 229) 0%, rgb(44, 160, 202) 100%); background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgb(62, 184, 229)), color-stop(1, rgb(44, 160, 202))); -webkit-box-shadow: inset 0px 4px 1px rgb(11, 105, 139) 0px 2px 0px 0px rgb(21, 103, 133) 0px 5px 3px rgb(153, 153, 153); -moz-box-shadow: 0px 2px 0px 1px rgb(21, 103, 133) 0px 5px 3px rgb(153, 153, 153); -o-box-shadow: 0px 2px 0px 1px rgb(21, 103, 133) 0px 5px 3px rgb(153, 153, 153); box-shadow: inset 0px 4px 1px rgb(11, 105, 139) 0px 2px 0px 0px rgb(21, 103, 133) 0px 5px 3px rgb(153, 153, 153)} .a_demo_five.cQjuQBn:before{background-color: rgb(255, 255, 255); color: black; background-repeat: no-repeat; background-position: center center; content: "错题库"; width: 110px; height: 40px; position: absolute; top: -30px; left: 0px; margin-top: -11px; z-index: -1; -webkit-border-top-left-radius: 5px; -webkit-border-top-right-radius: 5px; -moz-border-radius-topleft: 5px; -moz-border-radius-topright: 5px; border-top-left-radius: 5px; border-top-right-radius: 5px} .a_demo_five.cQjuQBn:active:before{top: -30px; -webkit-box-shadow: 0px 3px 0px rgb(204, 204, 204); -moz-box-shadow: 0px 3px 0px rgb(204, 204, 204); -o-box-shadow: 0px 3px 0px rgb(204, 204, 204); box-shadow: 0px 3px 0px rgb(204, 204, 204)}</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cQjuQBn" class="cQjuQBn"/>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p4f0184086dc5432a9c864f706b4bfe0b-iosstatusbar cQjuQBn" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cQjuQBn"> 
+    <div class="x-panel-top cQjuQBn" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cQjuQBn">
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cQjuQBn" xid="titleBar1" style="background-color:#2894FF;color:white;" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;我的错题&quot;}" __cid="cQjuQBn"> 
+        <div class="x-titlebar-left cQjuQBn" xid="left1" __cid="cQjuQBn"/>  
+        <div class="x-titlebar-title cQjuQBn" xid="title1" __cid="cQjuQBn">我的错题</div>  
+        <div class="x-titlebar-right  cQjuQBn" xid="right1" __cid="cQjuQBn">
+          <div class="empty cQjuQBn" __cid="cQjuQBn"/>
+        </div>
+      </div>
+    </div>  
+    <div class="x-panel-content cQjuQBn" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cQjuQBn">
+      <div xid="div1" style="height:10%;" __cid="cQjuQBn" class="cQjuQBn"/>  
+      <div xid="div2" style="height:30%;" __cid="cQjuQBn" class="cQjuQBn">
+        <div xid="div4" align="center" style="width:75%;height:100%;" class="center-block cQjuQBn" __cid="cQjuQBn">
+          <div xid="div5" style="width:50%;height:100%;float:left;border-style:none dashed none none;border-width:thin thin thin thin;" __cid="cQjuQBn" class="cQjuQBn"> 
+            <a class="a_demo_five cQjuQBn" href="#" style="width:70%;" bind-click="a2Click" __cid="cQjuQBn">分类错题--判断</a> 
+          </div>  
+          <div xid="div14" style="width:50%;height:100%;float:left;" __cid="cQjuQBn" class="cQjuQBn"> 
+            <a class="a_demo_five cQjuQBn" href="#" bind-click="a1Click" style="width:70%;" __cid="cQjuQBn">分类错题--选择</a> 
+          </div>
+        </div>
+      </div>  
+      <div xid="div12" style="border-style:none none dashed none;border-width:thin thin thin thin;height:10%;width:75%;" align="center" class="center-block cQjuQBn" __cid="cQjuQBn"> 
+        <div xid="div18" style="height:100%;width:50%;float:left;" __cid="cQjuQBn" class="cQjuQBn">
+          <div xid="div16" style="height:30%;" __cid="cQjuQBn" class="cQjuQBn"/>
+          <span xid="span1" style="font-weight:200;color:#2894FF;" __cid="cQjuQBn" class="cQjuQBn">剩余错题数量：</span>
+          <label xid="label1" style="font-weight:200;color:#2894FF;" bind-text="window.localStorage.getItem(&quot;wrongJudgeTotalOf&quot;)==null?0:window.localStorage.getItem(&quot;wrongJudgeTotalOf&quot;)" __cid="cQjuQBn" class="cQjuQBn"/>
+        </div>  
+        <div xid="div19" style="height:100%;width:50%;float:left;" __cid="cQjuQBn" class="cQjuQBn">
+          <div xid="div20" style="height:30%;" __cid="cQjuQBn" class="cQjuQBn"/>  
+          <span xid="span2" style="font-weight:200;color:#2894FF;" __cid="cQjuQBn" class="cQjuQBn">剩余错题数量：</span>  
+          <label xid="label3" bind-text="window.localStorage.getItem(&quot;wrongChoseTotalOf&quot;)==null?0:window.localStorage.getItem(&quot;wrongChoseTotalOf&quot;)" style="font-weight:200;color:#2894FF;" __cid="cQjuQBn" class="cQjuQBn">label</label>
+        </div>
+      </div>
+      <div xid="div11" style="height:10%;" __cid="cQjuQBn" class="cQjuQBn"/>
+      <div xid="div3" style="height:30%;" __cid="cQjuQBn" class="cQjuQBn"> 
+        <div xid="div9" align="center" style="width:75%;height:100%;" class="center-block cQjuQBn" __cid="cQjuQBn">
+          <div xid="div10" style="width:50%;height:100%;float:left;border-style:none dashed none none;border-width:thin thin thin thin;" __cid="cQjuQBn" class="cQjuQBn"> 
+            <a class="a_demo_five cQjuQBn" href="#" style="width:70%;" bind-click="a3Click" xid="a3" __cid="cQjuQBn">试卷错题--判断</a> 
+          </div>  
+          <div xid="div15" style="width:50%;height:100%;float:left;" __cid="cQjuQBn" class="cQjuQBn"> 
+            <a class="a_demo_five cQjuQBn" href="#" style="width:70%;" xid="a4" bind-click="a4Click" __cid="cQjuQBn">试卷错题--选择</a> 
+          </div>
+        </div> 
+      </div>  
+      <div xid="div13" style="border-style:none none none none;border-width:thin thin thin thin;height:10%;width:75%;" align="center" class="center-block cQjuQBn" __cid="cQjuQBn">
+        <div xid="div17" style="height:100%;width:50%;float:left;" __cid="cQjuQBn" class="cQjuQBn">
+          <div xid="div7" style="height:30%;" __cid="cQjuQBn" class="cQjuQBn"/>
+          <span xid="span3" style="font-weight:200;color:#2894FF;" __cid="cQjuQBn" class="cQjuQBn">剩余错题数量：</span>
+          <label xid="label2" style="font-weight:200;color:#2894FF;" bind-text="window.localStorage.getItem(&quot;simWrongItemJudge&quot;)==null?0:(JSON.parse(window.localStorage.getItem(&quot;simWrongItemJudge&quot;))).length" __cid="cQjuQBn" class="cQjuQBn"/> 
+        </div>  
+        <div xid="div6" style="height:100%;width:50%;float:left;" __cid="cQjuQBn" class="cQjuQBn">
+          <div xid="div8" style="height:30%;" __cid="cQjuQBn" class="cQjuQBn"/>
+          <span xid="span4" style="font-weight:200;color:#2894FF;" __cid="cQjuQBn" class="cQjuQBn">剩余错题数量：</span>
+          <label xid="label4" bind-text="window.localStorage.getItem(&quot;simWrongItemChose&quot;)==null?0:(JSON.parse(window.localStorage.getItem(&quot;simWrongItemChose&quot;))).length" style="font-weight:200;color:#2894FF;" __cid="cQjuQBn" class="cQjuQBn">label</label>
+        </div>
+      </div>
+    </div>  
+    <div class="x-panel-bottom cQjuQBn" xid="bottom1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cQjuQBn"/>
+    <style __cid="cQjuQBn" class="cQjuQBn">.x-panel.p4f0184086dc5432a9c864f706b4bfe0b-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p4f0184086dc5432a9c864f706b4bfe0b-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p4f0184086dc5432a9c864f706b4bfe0b-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p4f0184086dc5432a9c864f706b4bfe0b-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p4f0184086dc5432a9c864f706b4bfe0b-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p4f0184086dc5432a9c864f706b4bfe0b-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p4f0184086dc5432a9c864f706b4bfe0b-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p4f0184086dc5432a9c864f706b4bfe0b-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p4f0184086dc5432a9c864f706b4bfe0b-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div>
+</div>

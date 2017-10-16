@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cmi67fa" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cmi67fa" components="$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/labelEdit/labelEdit,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/button/buttonGroup,$model/UI2/system/components/justep/select/radioGroup,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/messageDialog/messageDialog,$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/button/radio,$model/UI2/system/components/justep/button/button,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">null</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cmi67fa" class="cmi67fa"></div>  
+  <span component="$model/UI2/system/components/justep/messageDialog/messageDialog" xid="messageDialog1" data-bind="component:{name:'$model/UI2/system/components/justep/messageDialog/messageDialog'}" data-config="{&quot;message&quot;:&quot;答案正确！&quot;,&quot;title&quot;:&quot;提示&quot;,&quot;type&quot;:&quot;OK&quot;}" __cid="cmi67fa" class="cmi67fa">
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal-overlay cmi67fa" __cid="cmi67fa"/>
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal cmi67fa" __cid="cmi67fa">
+      <xhtml:div class="x-modal-inner cmi67fa" __cid="cmi67fa">
+        <xhtml:div class="x-modal-title cmi67fa" __cid="cmi67fa">提示</xhtml:div>
+        <xhtml:div class="x-modal-text cmi67fa" __cid="cmi67fa">答案正确！</xhtml:div>
+        <xhtml:input class="x-modal-prompt-input cmi67fa" type="text" __cid="cmi67fa"/>
+      </xhtml:div>
+      <xhtml:div class="x-modal-buttons cmi67fa" __cid="cmi67fa">
+        <xhtml:a class="x-modal-button x-modal-button-bold OK cmi67fa" value="ok" __cid="cmi67fa">确定</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold Yes cmi67fa" value="yes" __cid="cmi67fa">是</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold No cmi67fa" value="no" __cid="cmi67fa">否</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold Cancel cmi67fa" value="cancel" __cid="cmi67fa">取消</xhtml:a>
+      </xhtml:div>
+    </xhtml:div>
+  </span>
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pc895e9ab0b184e87b857cf304da99897-iosstatusbar cmi67fa" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cmi67fa"> 
+    <div class="x-panel-top cmi67fa" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cmi67fa"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cmi67fa" xid="titleBar1" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;错题-分类判断&quot;}" __cid="cmi67fa"> 
+        <div class="x-titlebar-left cmi67fa" xid="left1" __cid="cmi67fa">
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cmi67fa" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:backBtnClick" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cmi67fa"> 
+            <i class="icon-chevron-left cmi67fa" __cid="cmi67fa"/>  
+            <span __cid="cmi67fa" class="cmi67fa"/> 
+          </a>
+        </div>  
+        <div class="x-titlebar-title cmi67fa" xid="title1" __cid="cmi67fa">错题-分类判断</div>  
+        <div class="x-titlebar-right  cmi67fa" xid="right1" __cid="cmi67fa">
+          <div class="empty cmi67fa" __cid="cmi67fa"/>
+        </div>
+      </div>
+    </div>  
+    <div class="x-panel-content cmi67fa" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cmi67fa">
+      <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-card panel panel-default pbf4df577d8f74c0b874fb94cc888279d-iosstatusbar cmi67fa" xid="panel2" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cmi67fa"> 
+        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label-top x-label30 cmi67fa" xid="labelEdit1" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cmi67fa"> 
+          <div xid="div1" bind-text="$model.queswrong.val(&quot;id&quot;) +&quot;.&quot;+$model.using.val(&quot;ques&quot;)" __cid="cmi67fa" class="cmi67fa"/>
+          <span component="$model/UI2/system/components/justep/select/radioGroup" class="x-radio-group x-radio-group-vertical x-radios x-edit cmi67fa" xid="radioGroup1" bind-foreach="{data:data1.datas,afterRender:$model.comp($element)['_doUpdate'].bind($model.comp($element))}" data-bind="component:{name:'$model/UI2/system/components/justep/select/radioGroup'}" __cid="cmi67fa">
+            <xhtml:span xmlns:xhtml="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/button/radio" class="x-radio cmi67fa" data-config="{&quot;checked&quot;:false,&quot;disabled&quot;:false}" data-bind="component:{name:'$model/UI2/system/components/justep/button/radio',value:ref('val'),label:ref('name')}" __cid="cmi67fa">
+              <xhtml:input type="radio" __cid="cmi67fa" class="cmi67fa"/>
+              <xhtml:label __cid="cmi67fa" class="cmi67fa"/>
+            </xhtml:span>
+          </span>
+        </div>  
+        <style __cid="cmi67fa" class="cmi67fa">.x-panel.pbf4df577d8f74c0b874fb94cc888279d-iosstatusbar &gt;.x-panel-top {height: 0px;}.x-panel.pbf4df577d8f74c0b874fb94cc888279d-iosstatusbar &gt;.x-panel-content { top: 0px;bottom: nullpx;}.x-panel.pbf4df577d8f74c0b874fb94cc888279d-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pbf4df577d8f74c0b874fb94cc888279d-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pbf4df577d8f74c0b874fb94cc888279d-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel.pbf4df577d8f74c0b874fb94cc888279d-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pbf4df577d8f74c0b874fb94cc888279d-iosstatusbar &gt;.x-panel-content { top: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pbf4df577d8f74c0b874fb94cc888279d-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pbf4df577d8f74c0b874fb94cc888279d-iosstatusbar &gt;.x-panel-content {top: 0px;}</style>
+      </div>  
+      <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-card panel panel-default p38df3e0795b54c91b3cda33ad894becd-iosstatusbar cmi67fa" xid="panel4" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cmi67fa"> 
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default btn-block cmi67fa" xid="button5" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:button5Click" data-config="{&quot;label&quot;:&quot;确认&quot;}" __cid="cmi67fa"> 
+          <i xid="i5" __cid="cmi67fa" class="cmi67fa"/>  
+          <span xid="span5" __cid="cmi67fa" class="cmi67fa">确认</span>
+        </a>
+        <style __cid="cmi67fa" class="cmi67fa">.x-panel.p38df3e0795b54c91b3cda33ad894becd-iosstatusbar &gt;.x-panel-top {height: 0px;}.x-panel.p38df3e0795b54c91b3cda33ad894becd-iosstatusbar &gt;.x-panel-content { top: 0px;bottom: nullpx;}.x-panel.p38df3e0795b54c91b3cda33ad894becd-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p38df3e0795b54c91b3cda33ad894becd-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p38df3e0795b54c91b3cda33ad894becd-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel.p38df3e0795b54c91b3cda33ad894becd-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p38df3e0795b54c91b3cda33ad894becd-iosstatusbar &gt;.x-panel-content { top: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p38df3e0795b54c91b3cda33ad894becd-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p38df3e0795b54c91b3cda33ad894becd-iosstatusbar &gt;.x-panel-content {top: 0px;}</style>
+      </div>  
+      <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-card panel panel-default p474040f2065e4d7da24647a8135c1efb-iosstatusbar cmi67fa" xid="panel3" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cmi67fa"> 
+        <label xid="label2" style="width:100%;height:100%;" class="center-block cmi67fa" __cid="cmi67fa">正确答案：</label>  
+        <label xid="label3" bind-text="using.val('answer')==&quot;1&quot;?&quot;正确√&quot;:&quot;错误×&quot;" __cid="cmi67fa" class="cmi67fa"/>
+        <style __cid="cmi67fa" class="cmi67fa">.x-panel.p474040f2065e4d7da24647a8135c1efb-iosstatusbar &gt;.x-panel-top {height: 0px;}.x-panel.p474040f2065e4d7da24647a8135c1efb-iosstatusbar &gt;.x-panel-content { top: 0px;bottom: nullpx;}.x-panel.p474040f2065e4d7da24647a8135c1efb-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p474040f2065e4d7da24647a8135c1efb-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p474040f2065e4d7da24647a8135c1efb-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel.p474040f2065e4d7da24647a8135c1efb-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p474040f2065e4d7da24647a8135c1efb-iosstatusbar &gt;.x-panel-content { top: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p474040f2065e4d7da24647a8135c1efb-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p474040f2065e4d7da24647a8135c1efb-iosstatusbar &gt;.x-panel-content {top: 0px;}</style>
+      </div>
+    </div>  
+    <div class="x-panel-bottom cmi67fa" xid="bottom1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cmi67fa"> 
+      <div class="x-panel-bottom cmi67fa" xid="bottom1" __cid="cmi67fa">
+        <div component="$model/UI2/system/components/justep/button/buttonGroup" class="btn-group x-card btn-group-justified cmi67fa" xid="buttonGroup1" data-bind="component:{name:'$model/UI2/system/components/justep/button/buttonGroup'}" data-config="{&quot;tabbed&quot;:true}" __cid="cmi67fa">
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default btn-icon-top cmi67fa" xid="button1" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:button1Click" data-config="{&quot;icon&quot;:&quot;icon-arrow-left-a&quot;,&quot;label&quot;:&quot;上一题&quot;}" __cid="cmi67fa"> 
+            <i xid="i1" class="icon-arrow-left-a cmi67fa" __cid="cmi67fa"/>  
+            <span xid="span1" __cid="cmi67fa" class="cmi67fa">上一题</span>
+          </a>  
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default btn-icon-top cmi67fa" xid="button2" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:button2Click" data-config="{&quot;icon&quot;:&quot;icon-eye&quot;,&quot;label&quot;:&quot;看答案&quot;}" __cid="cmi67fa"> 
+            <i xid="i2" class="icon-eye cmi67fa" __cid="cmi67fa"/>  
+            <span xid="span2" __cid="cmi67fa" class="cmi67fa">看答案</span>
+          </a>  
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default btn-icon-top cmi67fa" xid="button3" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-ios7-albums&quot;,&quot;label&quot;:&quot;1/800&quot;}" __cid="cmi67fa"> 
+            <i xid="i3" class="icon-ios7-albums cmi67fa" __cid="cmi67fa"/>  
+            <span xid="span3" __cid="cmi67fa" class="cmi67fa"/>
+          </a>
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default btn-icon-top cmi67fa" xid="button4" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:button4Click" data-config="{&quot;icon&quot;:&quot;icon-arrow-right-a&quot;,&quot;label&quot;:&quot;下一题&quot;}" __cid="cmi67fa"> 
+            <i xid="i4" class="icon-arrow-right-a cmi67fa" __cid="cmi67fa"/>  
+            <span xid="span4" __cid="cmi67fa" class="cmi67fa">下一题</span>
+          </a> 
+        </div>
+      </div>
+    </div>  
+    <style __cid="cmi67fa" class="cmi67fa">.x-panel.pc895e9ab0b184e87b857cf304da99897-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pc895e9ab0b184e87b857cf304da99897-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pc895e9ab0b184e87b857cf304da99897-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pc895e9ab0b184e87b857cf304da99897-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pc895e9ab0b184e87b857cf304da99897-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pc895e9ab0b184e87b857cf304da99897-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pc895e9ab0b184e87b857cf304da99897-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pc895e9ab0b184e87b857cf304da99897-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pc895e9ab0b184e87b857cf304da99897-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div>  
+  <span component="$model/UI2/system/components/justep/messageDialog/messageDialog" xid="messageDialog2" data-bind="component:{name:'$model/UI2/system/components/justep/messageDialog/messageDialog'}" data-config="{&quot;message&quot;:&quot;答案错误！&quot;,&quot;title&quot;:&quot;提示&quot;,&quot;type&quot;:&quot;OK&quot;}" __cid="cmi67fa" class="cmi67fa">
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal-overlay cmi67fa" __cid="cmi67fa"/>
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal cmi67fa" __cid="cmi67fa">
+      <xhtml:div class="x-modal-inner cmi67fa" __cid="cmi67fa">
+        <xhtml:div class="x-modal-title cmi67fa" __cid="cmi67fa">提示</xhtml:div>
+        <xhtml:div class="x-modal-text cmi67fa" __cid="cmi67fa">答案错误！</xhtml:div>
+        <xhtml:input class="x-modal-prompt-input cmi67fa" type="text" __cid="cmi67fa"/>
+      </xhtml:div>
+      <xhtml:div class="x-modal-buttons cmi67fa" __cid="cmi67fa">
+        <xhtml:a class="x-modal-button x-modal-button-bold OK cmi67fa" value="ok" __cid="cmi67fa">确定</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold Yes cmi67fa" value="yes" __cid="cmi67fa">是</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold No cmi67fa" value="no" __cid="cmi67fa">否</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold Cancel cmi67fa" value="cancel" __cid="cmi67fa">取消</xhtml:a>
+      </xhtml:div>
+    </xhtml:div>
+  </span>  
+  <span component="$model/UI2/system/components/justep/messageDialog/messageDialog" xid="messageDialog3" data-bind="component:{name:'$model/UI2/system/components/justep/messageDialog/messageDialog'}" data-config="{&quot;message&quot;:&quot;请作出您的选择！&quot;,&quot;title&quot;:&quot;提示&quot;,&quot;type&quot;:&quot;OK&quot;}" __cid="cmi67fa" class="cmi67fa">
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal-overlay cmi67fa" __cid="cmi67fa"/>
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal cmi67fa" __cid="cmi67fa">
+      <xhtml:div class="x-modal-inner cmi67fa" __cid="cmi67fa">
+        <xhtml:div class="x-modal-title cmi67fa" __cid="cmi67fa">提示</xhtml:div>
+        <xhtml:div class="x-modal-text cmi67fa" __cid="cmi67fa">请作出您的选择！</xhtml:div>
+        <xhtml:input class="x-modal-prompt-input cmi67fa" type="text" __cid="cmi67fa"/>
+      </xhtml:div>
+      <xhtml:div class="x-modal-buttons cmi67fa" __cid="cmi67fa">
+        <xhtml:a class="x-modal-button x-modal-button-bold OK cmi67fa" value="ok" __cid="cmi67fa">确定</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold Yes cmi67fa" value="yes" __cid="cmi67fa">是</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold No cmi67fa" value="no" __cid="cmi67fa">否</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold Cancel cmi67fa" value="cancel" __cid="cmi67fa">取消</xhtml:a>
+      </xhtml:div>
+    </xhtml:div>
+  </span>  
+  <span component="$model/UI2/system/components/justep/messageDialog/messageDialog" xid="messageDialog4" data-bind="component:{name:'$model/UI2/system/components/justep/messageDialog/messageDialog'}" data-events="onOK:messageDialog4OK" data-config="{&quot;message&quot;:&quot;您没有错题哦！&quot;,&quot;title&quot;:&quot;提示&quot;,&quot;type&quot;:&quot;OK&quot;}" __cid="cmi67fa" class="cmi67fa">
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal-overlay cmi67fa" __cid="cmi67fa"/>
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal cmi67fa" __cid="cmi67fa">
+      <xhtml:div class="x-modal-inner cmi67fa" __cid="cmi67fa">
+        <xhtml:div class="x-modal-title cmi67fa" __cid="cmi67fa">提示</xhtml:div>
+        <xhtml:div class="x-modal-text cmi67fa" __cid="cmi67fa">您没有错题哦！</xhtml:div>
+        <xhtml:input class="x-modal-prompt-input cmi67fa" type="text" __cid="cmi67fa"/>
+      </xhtml:div>
+      <xhtml:div class="x-modal-buttons cmi67fa" __cid="cmi67fa">
+        <xhtml:a class="x-modal-button x-modal-button-bold OK cmi67fa" value="ok" __cid="cmi67fa">确定</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold Yes cmi67fa" value="yes" __cid="cmi67fa">是</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold No cmi67fa" value="no" __cid="cmi67fa">否</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold Cancel cmi67fa" value="cancel" __cid="cmi67fa">取消</xhtml:a>
+      </xhtml:div>
+    </xhtml:div>
+  </span>  
+  <span component="$model/UI2/system/components/justep/messageDialog/messageDialog" xid="messageDialog6" data-bind="component:{name:'$model/UI2/system/components/justep/messageDialog/messageDialog'}" data-events="onOK:messageDialog6OK" data-config="{&quot;message&quot;:&quot;清除错题记录成功！&quot;,&quot;title&quot;:&quot;提示&quot;,&quot;type&quot;:&quot;OK&quot;}" __cid="cmi67fa" class="cmi67fa">
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal-overlay cmi67fa" __cid="cmi67fa"/>
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal cmi67fa" __cid="cmi67fa">
+      <xhtml:div class="x-modal-inner cmi67fa" __cid="cmi67fa">
+        <xhtml:div class="x-modal-title cmi67fa" __cid="cmi67fa">提示</xhtml:div>
+        <xhtml:div class="x-modal-text cmi67fa" __cid="cmi67fa">清除错题记录成功！</xhtml:div>
+        <xhtml:input class="x-modal-prompt-input cmi67fa" type="text" __cid="cmi67fa"/>
+      </xhtml:div>
+      <xhtml:div class="x-modal-buttons cmi67fa" __cid="cmi67fa">
+        <xhtml:a class="x-modal-button x-modal-button-bold OK cmi67fa" value="ok" __cid="cmi67fa">确定</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold Yes cmi67fa" value="yes" __cid="cmi67fa">是</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold No cmi67fa" value="no" __cid="cmi67fa">否</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold Cancel cmi67fa" value="cancel" __cid="cmi67fa">取消</xhtml:a>
+      </xhtml:div>
+    </xhtml:div>
+  </span>  
+  <span component="$model/UI2/system/components/justep/messageDialog/messageDialog" xid="messageDialog7" data-bind="component:{name:'$model/UI2/system/components/justep/messageDialog/messageDialog'}" data-events="onOK:messageDialog7OK" data-config="{&quot;message&quot;:&quot;是否确认清除错题记录？&quot;,&quot;title&quot;:&quot;提示&quot;,&quot;type&quot;:&quot;OKCancel&quot;}" __cid="cmi67fa" class="cmi67fa">
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal-overlay cmi67fa" __cid="cmi67fa"/>
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal cmi67fa" __cid="cmi67fa">
+      <xhtml:div class="x-modal-inner cmi67fa" __cid="cmi67fa">
+        <xhtml:div class="x-modal-title cmi67fa" __cid="cmi67fa">提示</xhtml:div>
+        <xhtml:div class="x-modal-text cmi67fa" __cid="cmi67fa">是否确认清除错题记录？</xhtml:div>
+        <xhtml:input class="x-modal-prompt-input cmi67fa" type="text" __cid="cmi67fa"/>
+      </xhtml:div>
+      <xhtml:div class="x-modal-buttons cmi67fa" __cid="cmi67fa">
+        <xhtml:a class="x-modal-button x-modal-button-bold OK cmi67fa" value="ok" __cid="cmi67fa">确定</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold Yes cmi67fa" value="yes" __cid="cmi67fa">是</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold No cmi67fa" value="no" __cid="cmi67fa">否</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold Cancel cmi67fa" value="cancel" __cid="cmi67fa">取消</xhtml:a>
+      </xhtml:div>
+    </xhtml:div>
+  </span>
+</div>

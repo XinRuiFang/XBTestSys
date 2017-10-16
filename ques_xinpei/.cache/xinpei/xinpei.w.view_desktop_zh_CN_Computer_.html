@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window cUfANFv" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cUfANFv" components="$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/labelEdit/labelEdit,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/button/buttonGroup,$model/UI2/system/components/justep/select/radioGroup,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/messageDialog/messageDialog,$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/button/radio,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/input/input,">  
+  <style xmlns="" xmlns:xhtml="http://www.w3.org/1999/xhtml">null</style>  
+  <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cUfANFv" class="cUfANFv"/>  
+  <span xmlns="" component="$model/UI2/system/components/justep/messageDialog/messageDialog" xid="messageDialog1" data-bind="component:{name:'$model/UI2/system/components/justep/messageDialog/messageDialog'}" data-config="{&quot;message&quot;:&quot;答案正确！&quot;,&quot;title&quot;:&quot;提示&quot;,&quot;type&quot;:&quot;OK&quot;}" __cid="cUfANFv" class="cUfANFv"> 
+    <div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal-overlay cUfANFv" __cid="cUfANFv"></div>  
+    <div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal cUfANFv" __cid="cUfANFv">  
+      <div class="x-modal-inner cUfANFv" __cid="cUfANFv"> 
+        <div class="x-modal-title cUfANFv" __cid="cUfANFv">提示</div>  
+        <div class="x-modal-text cUfANFv" __cid="cUfANFv">答案正确！</div>  
+        <input class="x-modal-prompt-input cUfANFv" type="text" __cid="cUfANFv"/> 
+      </div>  
+      <div class="x-modal-buttons cUfANFv" __cid="cUfANFv"> 
+        <a class="x-modal-button x-modal-button-bold OK cUfANFv" value="ok" __cid="cUfANFv">确定</a>  
+        <a class="x-modal-button x-modal-button-bold Yes cUfANFv" value="yes" __cid="cUfANFv">是</a>  
+        <a class="x-modal-button x-modal-button-bold No cUfANFv" value="no" __cid="cUfANFv">否</a>  
+        <a class="x-modal-button x-modal-button-bold Cancel cUfANFv" value="cancel" __cid="cUfANFv">取消</a> 
+      </div> 
+    </div> 
+  </span>  
+  <div xmlns="" component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full p328d3745f91843d6b7427ac06e011c16-iosstatusbar cUfANFv" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cUfANFv"> 
+    <div class="x-panel-top cUfANFv" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cUfANFv"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cUfANFv" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;选择练习&quot;}" __cid="cUfANFv"> 
+        <div class="x-titlebar-left cUfANFv" __cid="cUfANFv"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cUfANFv" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:backBtnClick" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cUfANFv"> 
+            <i class="icon-chevron-left cUfANFv" __cid="cUfANFv"/>  
+            <span __cid="cUfANFv" class="cUfANFv"/> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cUfANFv" __cid="cUfANFv">选择练习</div>  
+        <div class="x-titlebar-right  cUfANFv" __cid="cUfANFv"> 
+          <div class="empty cUfANFv" __cid="cUfANFv"/> 
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content cUfANFv" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cUfANFv"> 
+      <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-card panel panel-default pd830a9229ae144eb99c9ae42c5dacec0-iosstatusbar cUfANFv" xid="panel2" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cUfANFv"> 
+        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label-top x-label30 cUfANFv" xid="labelEdit1" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cUfANFv"> 
+          <div xid="div1" __cid="cUfANFv" class="cUfANFv" data-bind="text:$model.ques.val(&quot;id&quot;) +&quot;.&quot;+$model.using.val(&quot;ques&quot;)"/>  
+          <span component="$model/UI2/system/components/justep/select/radioGroup" class="x-radio-group x-radio-group-vertical x-radios x-edit cUfANFv" xid="radioGroup1" data-bind="component:{name:'$model/UI2/system/components/justep/select/radioGroup'},foreach:{data:using.datas,afterRender:$model.comp($element)['_doUpdate'].bind($model.comp($element))}" __cid="cUfANFv"> 
+            <span xmlns:xhtml="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/button/radio" class="x-radio cUfANFv" data-config="{&quot;checked&quot;:false,&quot;disabled&quot;:false}" data-bind="component:{name:'$model/UI2/system/components/justep/button/radio',value:ref('chooseId'),label:ref('choose')}" __cid="cUfANFv">  
+              <input type="radio" __cid="cUfANFv" class="cUfANFv"/>  
+              <label __cid="cUfANFv" class="cUfANFv"/> 
+            </span> 
+          </span> 
+        </div>  
+        <style __cid="cUfANFv" class="cUfANFv">.x-panel.pd830a9229ae144eb99c9ae42c5dacec0-iosstatusbar &gt;.x-panel-top {height: 0px;}.x-panel.pd830a9229ae144eb99c9ae42c5dacec0-iosstatusbar &gt;.x-panel-content { top: 0px;bottom: nullpx;}.x-panel.pd830a9229ae144eb99c9ae42c5dacec0-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pd830a9229ae144eb99c9ae42c5dacec0-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pd830a9229ae144eb99c9ae42c5dacec0-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel.pd830a9229ae144eb99c9ae42c5dacec0-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pd830a9229ae144eb99c9ae42c5dacec0-iosstatusbar &gt;.x-panel-content { top: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pd830a9229ae144eb99c9ae42c5dacec0-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pd830a9229ae144eb99c9ae42c5dacec0-iosstatusbar &gt;.x-panel-content {top: 0px;}</style> 
+      </div>  
+      <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-card panel panel-default p9c1a219008f24a7fbfa94a5cf5c58c5d-iosstatusbar cUfANFv" xid="panel4" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cUfANFv"> 
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default btn-block cUfANFv" xid="button5" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:button5Click" data-config="{&quot;label&quot;:&quot;确认&quot;}" __cid="cUfANFv"> 
+          <i xid="i5" __cid="cUfANFv" class="cUfANFv"/>  
+          <span xid="span5" __cid="cUfANFv" class="cUfANFv">确认</span> 
+        </a>  
+        <style __cid="cUfANFv" class="cUfANFv">.x-panel.p9c1a219008f24a7fbfa94a5cf5c58c5d-iosstatusbar &gt;.x-panel-top {height: 0px;}.x-panel.p9c1a219008f24a7fbfa94a5cf5c58c5d-iosstatusbar &gt;.x-panel-content { top: 0px;bottom: nullpx;}.x-panel.p9c1a219008f24a7fbfa94a5cf5c58c5d-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p9c1a219008f24a7fbfa94a5cf5c58c5d-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p9c1a219008f24a7fbfa94a5cf5c58c5d-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel.p9c1a219008f24a7fbfa94a5cf5c58c5d-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p9c1a219008f24a7fbfa94a5cf5c58c5d-iosstatusbar &gt;.x-panel-content { top: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p9c1a219008f24a7fbfa94a5cf5c58c5d-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p9c1a219008f24a7fbfa94a5cf5c58c5d-iosstatusbar &gt;.x-panel-content {top: 0px;}</style> 
+      </div>  
+      <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-card panel panel-default p85ff4d585e7c474a88c9ba8f1194202a-iosstatusbar cUfANFv" xid="panel3" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cUfANFv"> 
+        <label xid="label2" style="width:100%;height:100%;" class="center-block cUfANFv" __cid="cUfANFv">正确答案：</label>  
+        <label xid="label3" __cid="cUfANFv" class="cUfANFv" data-bind="text:using.val('answer')"/>  
+        <style __cid="cUfANFv" class="cUfANFv">.x-panel.p85ff4d585e7c474a88c9ba8f1194202a-iosstatusbar &gt;.x-panel-top {height: 0px;}.x-panel.p85ff4d585e7c474a88c9ba8f1194202a-iosstatusbar &gt;.x-panel-content { top: 0px;bottom: nullpx;}.x-panel.p85ff4d585e7c474a88c9ba8f1194202a-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p85ff4d585e7c474a88c9ba8f1194202a-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p85ff4d585e7c474a88c9ba8f1194202a-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel.p85ff4d585e7c474a88c9ba8f1194202a-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p85ff4d585e7c474a88c9ba8f1194202a-iosstatusbar &gt;.x-panel-content { top: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p85ff4d585e7c474a88c9ba8f1194202a-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p85ff4d585e7c474a88c9ba8f1194202a-iosstatusbar &gt;.x-panel-content {top: 0px;}</style> 
+      </div>  
+      <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-card panel panel-default p56dabdbc64d349e696e26ff76cc3e2c7-iosstatusbar cUfANFv" xid="panel5" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cUfANFv"> 
+        <label xid="label1" style="width:287px;" __cid="cUfANFv" class="cUfANFv">请输入您要跳转到的题目号：</label>  
+        <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cUfANFv" xid="labelEdit2" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cUfANFv"> 
+          <label xid="label6" style="width:5%;" __cid="cUfANFv" class="cUfANFv"/>  
+          <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cUfANFv" xid="input1" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" __cid="cUfANFv"/>  
+          <label xid="label4" style="width:5%;" __cid="cUfANFv" class="cUfANFv"/> 
+        </div>  
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default btn-block center-block cUfANFv" xid="button6" style="width:40%;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:button6Click" data-config="{&quot;label&quot;:&quot;确认&quot;}" __cid="cUfANFv"> 
+          <i xid="i6" __cid="cUfANFv" class="cUfANFv"/>  
+          <span xid="span6" __cid="cUfANFv" class="cUfANFv">确认</span> 
+        </a>  
+        <style __cid="cUfANFv" class="cUfANFv">.x-panel.p56dabdbc64d349e696e26ff76cc3e2c7-iosstatusbar &gt;.x-panel-top {height: 0px;}.x-panel.p56dabdbc64d349e696e26ff76cc3e2c7-iosstatusbar &gt;.x-panel-content { top: 0px;bottom: nullpx;}.x-panel.p56dabdbc64d349e696e26ff76cc3e2c7-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p56dabdbc64d349e696e26ff76cc3e2c7-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p56dabdbc64d349e696e26ff76cc3e2c7-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel.p56dabdbc64d349e696e26ff76cc3e2c7-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p56dabdbc64d349e696e26ff76cc3e2c7-iosstatusbar &gt;.x-panel-content { top: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p56dabdbc64d349e696e26ff76cc3e2c7-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p56dabdbc64d349e696e26ff76cc3e2c7-iosstatusbar &gt;.x-panel-content {top: 0px;}</style> 
+      </div> 
+    </div>  
+    <div class="x-panel-bottom cUfANFv" xid="bottom1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cUfANFv"> 
+      <div class="x-panel-bottom cUfANFv" xid="bottom1" __cid="cUfANFv"> 
+        <div component="$model/UI2/system/components/justep/button/buttonGroup" class="btn-group x-card btn-group-justified cUfANFv" xid="buttonGroup1" data-bind="component:{name:'$model/UI2/system/components/justep/button/buttonGroup'}" data-config="{&quot;tabbed&quot;:true}" __cid="cUfANFv"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default btn-icon-top cUfANFv" xid="button1" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:button1Click" data-config="{&quot;icon&quot;:&quot;icon-arrow-left-a&quot;,&quot;label&quot;:&quot;上一题&quot;}" __cid="cUfANFv"> 
+            <i xid="i1" class="icon-arrow-left-a cUfANFv" __cid="cUfANFv"/>  
+            <span xid="span1" __cid="cUfANFv" class="cUfANFv">上一题</span> 
+          </a>  
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default btn-icon-top cUfANFv" xid="button2" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:button2Click" data-config="{&quot;icon&quot;:&quot;icon-eye&quot;,&quot;label&quot;:&quot;看答案&quot;}" __cid="cUfANFv"> 
+            <i xid="i2" class="icon-eye cUfANFv" __cid="cUfANFv"/>  
+            <span xid="span2" __cid="cUfANFv" class="cUfANFv">看答案</span> 
+          </a>  
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default btn-icon-top cUfANFv" xid="button3" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:button3Click" data-config="{&quot;icon&quot;:&quot;icon-ios7-albums&quot;,&quot;label&quot;:&quot;1/800&quot;}" __cid="cUfANFv"> 
+            <i xid="i3" class="icon-ios7-albums cUfANFv" __cid="cUfANFv"/>  
+            <span xid="span3" __cid="cUfANFv" class="cUfANFv"/> 
+          </a>  
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default btn-icon-top cUfANFv" xid="button4" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:button4Click" data-config="{&quot;icon&quot;:&quot;icon-arrow-right-a&quot;,&quot;label&quot;:&quot;下一题&quot;}" __cid="cUfANFv"> 
+            <i xid="i4" class="icon-arrow-right-a cUfANFv" __cid="cUfANFv"/>  
+            <span xid="span4" __cid="cUfANFv" class="cUfANFv">下一题</span> 
+          </a> 
+        </div> 
+      </div> 
+    </div>  
+    <style __cid="cUfANFv" class="cUfANFv">.x-panel.p328d3745f91843d6b7427ac06e011c16-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.p328d3745f91843d6b7427ac06e011c16-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.p328d3745f91843d6b7427ac06e011c16-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.p328d3745f91843d6b7427ac06e011c16-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p328d3745f91843d6b7427ac06e011c16-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.p328d3745f91843d6b7427ac06e011c16-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.p328d3745f91843d6b7427ac06e011c16-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p328d3745f91843d6b7427ac06e011c16-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.p328d3745f91843d6b7427ac06e011c16-iosstatusbar &gt;.x-panel-content {top: 48px;}</style> 
+  </div>  
+  <span xmlns="" component="$model/UI2/system/components/justep/messageDialog/messageDialog" xid="messageDialog2" data-bind="component:{name:'$model/UI2/system/components/justep/messageDialog/messageDialog'}" data-config="{&quot;message&quot;:&quot;答案错误！&quot;,&quot;title&quot;:&quot;提示&quot;,&quot;type&quot;:&quot;OK&quot;}" __cid="cUfANFv" class="cUfANFv"> 
+    <div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal-overlay cUfANFv" __cid="cUfANFv"></div>  
+    <div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal cUfANFv" __cid="cUfANFv">  
+      <div class="x-modal-inner cUfANFv" __cid="cUfANFv"> 
+        <div class="x-modal-title cUfANFv" __cid="cUfANFv">提示</div>  
+        <div class="x-modal-text cUfANFv" __cid="cUfANFv">答案错误！</div>  
+        <input class="x-modal-prompt-input cUfANFv" type="text" __cid="cUfANFv"/> 
+      </div>  
+      <div class="x-modal-buttons cUfANFv" __cid="cUfANFv"> 
+        <a class="x-modal-button x-modal-button-bold OK cUfANFv" value="ok" __cid="cUfANFv">确定</a>  
+        <a class="x-modal-button x-modal-button-bold Yes cUfANFv" value="yes" __cid="cUfANFv">是</a>  
+        <a class="x-modal-button x-modal-button-bold No cUfANFv" value="no" __cid="cUfANFv">否</a>  
+        <a class="x-modal-button x-modal-button-bold Cancel cUfANFv" value="cancel" __cid="cUfANFv">取消</a> 
+      </div> 
+    </div> 
+  </span>  
+  <span xmlns="" component="$model/UI2/system/components/justep/messageDialog/messageDialog" xid="messageDialog3" data-bind="component:{name:'$model/UI2/system/components/justep/messageDialog/messageDialog'}" data-config="{&quot;message&quot;:&quot;请作出您的选择！&quot;,&quot;title&quot;:&quot;提示&quot;,&quot;type&quot;:&quot;OK&quot;}" __cid="cUfANFv" class="cUfANFv"> 
+    <div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal-overlay cUfANFv" __cid="cUfANFv"></div>  
+    <div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal cUfANFv" __cid="cUfANFv">  
+      <div class="x-modal-inner cUfANFv" __cid="cUfANFv"> 
+        <div class="x-modal-title cUfANFv" __cid="cUfANFv">提示</div>  
+        <div class="x-modal-text cUfANFv" __cid="cUfANFv">请作出您的选择！</div>  
+        <input class="x-modal-prompt-input cUfANFv" type="text" __cid="cUfANFv"/> 
+      </div>  
+      <div class="x-modal-buttons cUfANFv" __cid="cUfANFv"> 
+        <a class="x-modal-button x-modal-button-bold OK cUfANFv" value="ok" __cid="cUfANFv">确定</a>  
+        <a class="x-modal-button x-modal-button-bold Yes cUfANFv" value="yes" __cid="cUfANFv">是</a>  
+        <a class="x-modal-button x-modal-button-bold No cUfANFv" value="no" __cid="cUfANFv">否</a>  
+        <a class="x-modal-button x-modal-button-bold Cancel cUfANFv" value="cancel" __cid="cUfANFv">取消</a> 
+      </div> 
+    </div> 
+  </span>  
+  <span xmlns="" component="$model/UI2/system/components/justep/messageDialog/messageDialog" xid="messageDialog4" data-bind="component:{name:'$model/UI2/system/components/justep/messageDialog/messageDialog'}" data-events="onOK:messageDialog4OK" data-config="{&quot;message&quot;:&quot;您确定要看答案吗？将会记录至错题库中！&quot;,&quot;title&quot;:&quot;提示&quot;,&quot;type&quot;:&quot;OKCancel&quot;}" __cid="cUfANFv" class="cUfANFv"> 
+    <div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal-overlay cUfANFv" __cid="cUfANFv"></div>  
+    <div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal cUfANFv" __cid="cUfANFv">  
+      <div class="x-modal-inner cUfANFv" __cid="cUfANFv"> 
+        <div class="x-modal-title cUfANFv" __cid="cUfANFv">提示</div>  
+        <div class="x-modal-text cUfANFv" __cid="cUfANFv">您确定要看答案吗？将会记录至错题库中！</div>  
+        <input class="x-modal-prompt-input cUfANFv" type="text" __cid="cUfANFv"/> 
+      </div>  
+      <div class="x-modal-buttons cUfANFv" __cid="cUfANFv"> 
+        <a class="x-modal-button x-modal-button-bold OK cUfANFv" value="ok" __cid="cUfANFv">确定</a>  
+        <a class="x-modal-button x-modal-button-bold Yes cUfANFv" value="yes" __cid="cUfANFv">是</a>  
+        <a class="x-modal-button x-modal-button-bold No cUfANFv" value="no" __cid="cUfANFv">否</a>  
+        <a class="x-modal-button x-modal-button-bold Cancel cUfANFv" value="cancel" __cid="cUfANFv">取消</a> 
+      </div> 
+    </div> 
+  </span>  
+  <span xmlns="" component="$model/UI2/system/components/justep/messageDialog/messageDialog" xid="messageDialog5" data-bind="component:{name:'$model/UI2/system/components/justep/messageDialog/messageDialog'}" data-events="onOK:messageDialog5OK;onCancel:messageDialog5Cancel" data-config="{&quot;title&quot;:&quot;提示&quot;,&quot;type&quot;:&quot;OKCancel&quot;}" __cid="cUfANFv" class="cUfANFv"> 
+    <div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal-overlay cUfANFv" __cid="cUfANFv"></div>  
+    <div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal cUfANFv" __cid="cUfANFv">  
+      <div class="x-modal-inner cUfANFv" __cid="cUfANFv"> 
+        <div class="x-modal-title cUfANFv" __cid="cUfANFv">提示</div>  
+        <div class="x-modal-text cUfANFv" __cid="cUfANFv"/>  
+        <input class="x-modal-prompt-input cUfANFv" type="text" __cid="cUfANFv"/> 
+      </div>  
+      <div class="x-modal-buttons cUfANFv" __cid="cUfANFv"> 
+        <a class="x-modal-button x-modal-button-bold OK cUfANFv" value="ok" __cid="cUfANFv">确定</a>  
+        <a class="x-modal-button x-modal-button-bold Yes cUfANFv" value="yes" __cid="cUfANFv">是</a>  
+        <a class="x-modal-button x-modal-button-bold No cUfANFv" value="no" __cid="cUfANFv">否</a>  
+        <a class="x-modal-button x-modal-button-bold Cancel cUfANFv" value="cancel" __cid="cUfANFv">取消</a> 
+      </div> 
+    </div> 
+  </span>  
+  <span xmlns="" component="$model/UI2/system/components/justep/messageDialog/messageDialog" xid="messageDialog6" data-bind="component:{name:'$model/UI2/system/components/justep/messageDialog/messageDialog'}" data-config="{&quot;message&quot;:&quot;请正确输入题号！&quot;,&quot;title&quot;:&quot;提示&quot;,&quot;type&quot;:&quot;OK&quot;}" __cid="cUfANFv" class="cUfANFv"> 
+    <div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal-overlay cUfANFv" __cid="cUfANFv"></div>  
+    <div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal cUfANFv" __cid="cUfANFv">  
+      <div class="x-modal-inner cUfANFv" __cid="cUfANFv"> 
+        <div class="x-modal-title cUfANFv" __cid="cUfANFv">提示</div>  
+        <div class="x-modal-text cUfANFv" __cid="cUfANFv">请正确输入题号！</div>  
+        <input class="x-modal-prompt-input cUfANFv" type="text" __cid="cUfANFv"/> 
+      </div>  
+      <div class="x-modal-buttons cUfANFv" __cid="cUfANFv"> 
+        <a class="x-modal-button x-modal-button-bold OK cUfANFv" value="ok" __cid="cUfANFv">确定</a>  
+        <a class="x-modal-button x-modal-button-bold Yes cUfANFv" value="yes" __cid="cUfANFv">是</a>  
+        <a class="x-modal-button x-modal-button-bold No cUfANFv" value="no" __cid="cUfANFv">否</a>  
+        <a class="x-modal-button x-modal-button-bold Cancel cUfANFv" value="cancel" __cid="cUfANFv">取消</a> 
+      </div> 
+    </div> 
+  </span>  
+  <span xmlns="" component="$model/UI2/system/components/justep/messageDialog/messageDialog" xid="messageDialog7" data-bind="component:{name:'$model/UI2/system/components/justep/messageDialog/messageDialog'}" data-events="onOK:messageDialog7OK" data-config="{&quot;message&quot;:&quot;您确定要退出答题？您下次可以从当前进度开始继续作答！&quot;,&quot;title&quot;:&quot;提示&quot;,&quot;type&quot;:&quot;OKCancel&quot;}" __cid="cUfANFv" class="cUfANFv"> 
+    <div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal-overlay cUfANFv" __cid="cUfANFv"></div>  
+    <div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal cUfANFv" __cid="cUfANFv">  
+      <div class="x-modal-inner cUfANFv" __cid="cUfANFv"> 
+        <div class="x-modal-title cUfANFv" __cid="cUfANFv">提示</div>  
+        <div class="x-modal-text cUfANFv" __cid="cUfANFv">您确定要退出答题？您下次可以从当前进度开始继续作答！</div>  
+        <input class="x-modal-prompt-input cUfANFv" type="text" __cid="cUfANFv"/> 
+      </div>  
+      <div class="x-modal-buttons cUfANFv" __cid="cUfANFv"> 
+        <a class="x-modal-button x-modal-button-bold OK cUfANFv" value="ok" __cid="cUfANFv">确定</a>  
+        <a class="x-modal-button x-modal-button-bold Yes cUfANFv" value="yes" __cid="cUfANFv">是</a>  
+        <a class="x-modal-button x-modal-button-bold No cUfANFv" value="no" __cid="cUfANFv">否</a>  
+        <a class="x-modal-button x-modal-button-bold Cancel cUfANFv" value="cancel" __cid="cUfANFv">取消</a> 
+      </div> 
+    </div> 
+  </span> 
+</div>

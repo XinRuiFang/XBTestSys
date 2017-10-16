@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window cRVRzaq" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cRVRzaq" components="$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/messageDialog/messageDialog,$model/UI2/system/components/justep/windowDialog/windowDialog,$model/UI2/system/components/justep/button/buttonGroup,$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/button/button,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.yuanjiao.cRVRzaq{font-family: Arial; border-radius: 20px}</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cRVRzaq" class="cRVRzaq"/>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pa537cdcd4734419abbc8a71acdb56af1-iosstatusbar cRVRzaq" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cRVRzaq"> 
+    <div class="x-panel-top cRVRzaq" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cRVRzaq">
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cRVRzaq" xid="titleBar1" style="height:100%;" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;模拟试卷考试&quot;}" __cid="cRVRzaq"> 
+        <div class="x-titlebar-left cRVRzaq" xid="left1" __cid="cRVRzaq"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cRVRzaq" xid="backBtn" style="color:white;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:backBtnClick" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cRVRzaq"> 
+            <i class="icon-chevron-left cRVRzaq" __cid="cRVRzaq"/>  
+            <span __cid="cRVRzaq" class="cRVRzaq"/> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cRVRzaq" xid="title1" __cid="cRVRzaq">模拟试卷考试</div>  
+        <div class="x-titlebar-right  cRVRzaq" xid="right1" __cid="cRVRzaq">
+          <div class="empty cRVRzaq" __cid="cRVRzaq"/>
+        </div>
+      </div>
+    </div>  
+    <div class="x-panel-content cRVRzaq" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cRVRzaq">
+      <div xid="div1" style="height:100%;" __cid="cRVRzaq" class="cRVRzaq">
+        <div xid="div2" style="height:50%;" __cid="cRVRzaq" class="cRVRzaq">
+          <div xid="div4" style="height:50%;" align="center" __cid="cRVRzaq" class="cRVRzaq">
+            <div xid="div15" style="height:30%;" __cid="cRVRzaq" class="cRVRzaq"/>  
+            <label xid="label3" style="color:#2894ff;font-weight:200;width:90%;" __cid="cRVRzaq" class="cRVRzaq">新培模拟考试单选为34道、判断为66道，请点击下面的按钮开始答题！</label>
+          </div>  
+          <div xid="div5" style="width:50%;background-color:#2894FF;border-style:solid solid solid solid;border-width:thin thin thin thin;border-color:#E3E3E3 #E3E3E3 #E3E3E3 #E3E3E3;height:40%;" class="center-block yuanjiao cRVRzaq" align="center" bind-click="div5Click" __cid="cRVRzaq"> 
+            <div xid="div16" style="height:30%;" __cid="cRVRzaq" class="cRVRzaq"/>
+            <div xid="div12" align="center" __cid="cRVRzaq" class="cRVRzaq">
+              <label xid="label1" style="color:#fff;font-weight:400;font-size:large;width:100%;" __cid="cRVRzaq" class="cRVRzaq">选择题</label>
+            </div> 
+          </div>  
+          <div xid="div6" style="height:10%;" __cid="cRVRzaq" class="cRVRzaq"/>
+        </div>  
+        <div xid="div3" style="height:50%;" __cid="cRVRzaq" class="cRVRzaq">
+          <div xid="div7" __cid="cRVRzaq" class="cRVRzaq"/>  
+          <div xid="div8" style="width:50%;background-color:#2894FF;border-style:solid solid solid solid;border-width:thin thin thin thin;border-color:#E3E3E3 #E3E3E3 #E3E3E3 #E3E3E3;height:40%;" class="center-block yuanjiao cRVRzaq" bind-click="div8Click" __cid="cRVRzaq"> 
+            <div xid="div17" style="height:30%;" __cid="cRVRzaq" class="cRVRzaq"/>
+            <div xid="div14" align="center" __cid="cRVRzaq" class="cRVRzaq">
+              <label xid="label2" style="color:#fff;font-weight:400;font-size:large;width:100%;" __cid="cRVRzaq" class="cRVRzaq">判断题</label>
+            </div> 
+          </div>  
+          <div xid="div9" style="height:35%;" __cid="cRVRzaq" class="cRVRzaq"/>
+        </div>
+      </div>
+    </div>  
+    <div class="x-panel-bottom cRVRzaq" xid="bottom1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cRVRzaq">
+      <div component="$model/UI2/system/components/justep/button/buttonGroup" class="btn-group x-card btn-group-justified cRVRzaq" xid="buttonGroup1" data-bind="component:{name:'$model/UI2/system/components/justep/button/buttonGroup'}" data-config="{&quot;tabbed&quot;:true}" __cid="cRVRzaq">
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default btn-icon-left cRVRzaq" xid="button2" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:button2Click" data-config="{&quot;icon&quot;:&quot;icon-checkmark-round&quot;,&quot;label&quot;:&quot;提交答卷&quot;}" __cid="cRVRzaq"> 
+          <i xid="i2" class="icon-checkmark-round cRVRzaq" __cid="cRVRzaq"/>  
+          <span xid="span2" __cid="cRVRzaq" class="cRVRzaq">提交答卷</span>
+        </a>
+      </div>
+    </div>
+    <style __cid="cRVRzaq" class="cRVRzaq">.x-panel.pa537cdcd4734419abbc8a71acdb56af1-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pa537cdcd4734419abbc8a71acdb56af1-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pa537cdcd4734419abbc8a71acdb56af1-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pa537cdcd4734419abbc8a71acdb56af1-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pa537cdcd4734419abbc8a71acdb56af1-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pa537cdcd4734419abbc8a71acdb56af1-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pa537cdcd4734419abbc8a71acdb56af1-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pa537cdcd4734419abbc8a71acdb56af1-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pa537cdcd4734419abbc8a71acdb56af1-iosstatusbar &gt;.x-panel-content {top: 48px;}</style>
+  </div>  
+  <span component="$model/UI2/system/components/justep/windowDialog/windowDialog" xid="windowDialog1" data-bind="component:{name:'$model/UI2/system/components/justep/windowDialog/windowDialog'}" data-config="{&quot;src&quot;:&quot;$model/UI2/ques_xinpei/simChose.w&quot;}" __cid="cRVRzaq" class="cRVRzaq">
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog-overlay cRVRzaq" __cid="cRVRzaq"/>
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog cRVRzaq" style="display:none;" __cid="cRVRzaq">
+      <xhtml:div class="x-dialog-title cRVRzaq" __cid="cRVRzaq">
+        <xhtml:button class="close cRVRzaq" __cid="cRVRzaq">
+          <xhtml:span __cid="cRVRzaq" class="cRVRzaq">×</xhtml:span>
+        </xhtml:button>
+        <xhtml:div class="x-dialog-title-text cRVRzaq" __cid="cRVRzaq"/>
+      </xhtml:div>
+      <xhtml:div class="x-dialog-body cRVRzaq" __cid="cRVRzaq"/>
+    </xhtml:div>
+  </span>  
+  <span component="$model/UI2/system/components/justep/windowDialog/windowDialog" xid="windowDialog2" data-bind="component:{name:'$model/UI2/system/components/justep/windowDialog/windowDialog'}" data-config="{&quot;src&quot;:&quot;$model/UI2/ques_xinpei/simJudge.w&quot;}" __cid="cRVRzaq" class="cRVRzaq">
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog-overlay cRVRzaq" __cid="cRVRzaq"/>
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog cRVRzaq" style="display:none;" __cid="cRVRzaq">
+      <xhtml:div class="x-dialog-title cRVRzaq" __cid="cRVRzaq">
+        <xhtml:button class="close cRVRzaq" __cid="cRVRzaq">
+          <xhtml:span __cid="cRVRzaq" class="cRVRzaq">×</xhtml:span>
+        </xhtml:button>
+        <xhtml:div class="x-dialog-title-text cRVRzaq" __cid="cRVRzaq"/>
+      </xhtml:div>
+      <xhtml:div class="x-dialog-body cRVRzaq" __cid="cRVRzaq"/>
+    </xhtml:div>
+  </span>  
+  <span component="$model/UI2/system/components/justep/messageDialog/messageDialog" xid="messageDialog1" data-bind="component:{name:'$model/UI2/system/components/justep/messageDialog/messageDialog'}" data-events="onOK:messageDialog1OK" data-config="{&quot;message&quot;:&quot;您确定要提交答卷？系统会自动根据您的答题情况进行评分！&quot;,&quot;title&quot;:&quot;提示&quot;,&quot;type&quot;:&quot;OKCancel&quot;}" __cid="cRVRzaq" class="cRVRzaq">
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal-overlay cRVRzaq" __cid="cRVRzaq"/>
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal cRVRzaq" __cid="cRVRzaq">
+      <xhtml:div class="x-modal-inner cRVRzaq" __cid="cRVRzaq">
+        <xhtml:div class="x-modal-title cRVRzaq" __cid="cRVRzaq">提示</xhtml:div>
+        <xhtml:div class="x-modal-text cRVRzaq" __cid="cRVRzaq">您确定要提交答卷？系统会自动根据您的答题情况进行评分！</xhtml:div>
+        <xhtml:input class="x-modal-prompt-input cRVRzaq" type="text" __cid="cRVRzaq"/>
+      </xhtml:div>
+      <xhtml:div class="x-modal-buttons cRVRzaq" __cid="cRVRzaq">
+        <xhtml:a class="x-modal-button x-modal-button-bold OK cRVRzaq" value="ok" __cid="cRVRzaq">确定</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold Yes cRVRzaq" value="yes" __cid="cRVRzaq">是</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold No cRVRzaq" value="no" __cid="cRVRzaq">否</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold Cancel cRVRzaq" value="cancel" __cid="cRVRzaq">取消</xhtml:a>
+      </xhtml:div>
+    </xhtml:div>
+  </span>  
+  <span component="$model/UI2/system/components/justep/messageDialog/messageDialog" xid="messageDialog2" data-bind="component:{name:'$model/UI2/system/components/justep/messageDialog/messageDialog'}" data-events="onOK:messageDialog2OK" data-config="{&quot;message&quot;:&quot;您确定不进行评分直接退出？此次答题不会记录至记录中！&quot;,&quot;title&quot;:&quot;提示&quot;,&quot;type&quot;:&quot;OKCancel&quot;}" __cid="cRVRzaq" class="cRVRzaq">
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal-overlay cRVRzaq" __cid="cRVRzaq"/>
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal cRVRzaq" __cid="cRVRzaq">
+      <xhtml:div class="x-modal-inner cRVRzaq" __cid="cRVRzaq">
+        <xhtml:div class="x-modal-title cRVRzaq" __cid="cRVRzaq">提示</xhtml:div>
+        <xhtml:div class="x-modal-text cRVRzaq" __cid="cRVRzaq">您确定不进行评分直接退出？此次答题不会记录至记录中！</xhtml:div>
+        <xhtml:input class="x-modal-prompt-input cRVRzaq" type="text" __cid="cRVRzaq"/>
+      </xhtml:div>
+      <xhtml:div class="x-modal-buttons cRVRzaq" __cid="cRVRzaq">
+        <xhtml:a class="x-modal-button x-modal-button-bold OK cRVRzaq" value="ok" __cid="cRVRzaq">确定</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold Yes cRVRzaq" value="yes" __cid="cRVRzaq">是</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold No cRVRzaq" value="no" __cid="cRVRzaq">否</xhtml:a>
+        <xhtml:a class="x-modal-button x-modal-button-bold Cancel cRVRzaq" value="cancel" __cid="cRVRzaq">取消</xhtml:a>
+      </xhtml:div>
+    </xhtml:div>
+  </span>
+</div>

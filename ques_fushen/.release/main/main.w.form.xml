@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window cQzAZFn" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cQzAZFn" components="$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/windowDialog/windowDialog,$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/window/window,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.text-white.cQzAZFn{color: rgb(255, 255, 255)} a.cQzAZFn{text-decoration: none} .green.cQzAZFn{color: rgb(62, 87, 6); background: rgb(165, 205, 78); background: -moz-linear-gradient(top, rgb(165, 205, 78) 0%, rgb(107, 143, 26) 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgb(165, 205, 78)), color-stop(100%, rgb(107, 143, 26))); background: -webkit-linear-gradient(top, rgb(165, 205, 78) 0%, rgb(107, 143, 26) 100%); background: -o-linear-gradient(top, rgb(165, 205, 78) 0%, rgb(107, 143, 26) 100%); background: -ms-linear-gradient(top, rgb(165, 205, 78) 0%, rgb(107, 143, 26) 100%); background: linear-gradient(top, rgb(165, 205, 78) 0%, rgb(107, 143, 26) 100%)} .big.cQzAZFn{padding: 0 40px; padding-top: 10px; height: 45px; text-transform: uppercase; font: bold 20px/ 22px Arial, sans-serif} .big.cQzAZFn span.cQzAZFn{display: block; text-transform: none; font: italic normal 12px/ 18px Georgia, sans-serif; text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.12)} .button.cQzAZFn:hover{-webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.29), inset 0px 0px 2px rgba(0, 0, 0, 0.5); -moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.29), inset 0px 0px 2px rgba(0, 0, 0, 0.5); box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.29), inset 0px 0px 2px rgba(0, 0, 0, 0.5)} .button.cQzAZFn:active{-webkit-box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.8); -moz-box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.8); box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.8)} .button.cQzAZFn{display: inline-block; position: relative; margin: 10px; padding: 0 20px; text-align: center; text-decoration: none; font: bold 12px/ 25px Arial, sans-serif; text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.22); -webkit-border-radius: 30px; -moz-border-radius: 30px; border-radius: 30px; -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.29), inset 1px 1px 1px rgba(255, 255, 255, 0.44); -moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.29), inset 1px 1px 1px rgba(255, 255, 255, 0.44); box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.29), inset 1px 1px 1px rgba(255, 255, 255, 0.44); -webkit-transition: all 0.15s ease; -moz-transition: all 0.15s ease; -o-transition: all 0.15s ease; -ms-transition: all 0.15s ease; transition: all 0.15s ease}</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cQzAZFn" class="cQzAZFn"/>  
+  <div xid="div1" style="height:70%;background-color:#2894FF;color:white;" __cid="cQzAZFn" class="cQzAZFn">
+    <div xid="div3" style="height:30%;" __cid="cQzAZFn" class="cQzAZFn"/>  
+    <div xid="div4" class="h3 cQzAZFn" align="center" style="height:8%;" __cid="cQzAZFn"> 
+      <label xid="label1" class="text-white cQzAZFn" style="font-weight:400;" __cid="cQzAZFn">兴邦安全特种作业模拟练习</label> 
+    </div>  
+    <div xid="div5" class="h4 text-white cQzAZFn" align="center" style="height:6%;" __cid="cQzAZFn">
+      <label xid="label2" style="color:white;font-weight:200;font-size:medium;" __cid="cQzAZFn" class="cQzAZFn">熔化焊与金属切割新培练习题</label>
+    </div>  
+    <div xid="div7" style="height:20%;" __cid="cQzAZFn" class="cQzAZFn"/>
+    <div xid="div6" align="center" __cid="cQzAZFn" class="cQzAZFn">
+      <a href="#" class="button big green cQzAZFn" style="width:40%;font-size:medium;" bind-click="a1Click" __cid="cQzAZFn">进入练习
+        <span __cid="cQzAZFn" class="cQzAZFn">v3.0.0</span>
+      </a>
+    </div> 
+  </div>  
+  <div xid="div2" style="height:30%;" __cid="cQzAZFn" class="cQzAZFn"> 
+    <div xid="div10" class="h4 cQzAZFn" align="center" __cid="cQzAZFn">
+      <label xid="label1" __cid="cQzAZFn" class="cQzAZFn">报名热线：0411-84494911、15241179680</label>
+    </div>  
+    <div xid="div9" class="h5 cQzAZFn" align="center" __cid="cQzAZFn">
+      <label xid="label2" style="font-weight:200;" __cid="cQzAZFn" class="cQzAZFn">张老师15241179680、莫老师13478524070</label>
+    </div>  
+    <div xid="div8" class="h5 cQzAZFn" align="center" __cid="cQzAZFn">
+      <label xid="label2" style="font-weight:200;" __cid="cQzAZFn" class="cQzAZFn">解码微信：13478524070</label>
+    </div> 
+  </div>  
+  <span component="$model/UI2/system/components/justep/windowDialog/windowDialog" xid="windowDialog1" data-bind="component:{name:'$model/UI2/system/components/justep/windowDialog/windowDialog'}" data-config="{&quot;src&quot;:&quot;$model/UI2/ques_xinpei/jiami.w&quot;}" __cid="cQzAZFn" class="cQzAZFn">
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog-overlay cQzAZFn" __cid="cQzAZFn"/>
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog cQzAZFn" style="display:none;" __cid="cQzAZFn">
+      <xhtml:div class="x-dialog-title cQzAZFn" __cid="cQzAZFn">
+        <xhtml:button class="close cQzAZFn" __cid="cQzAZFn">
+          <xhtml:span __cid="cQzAZFn" class="cQzAZFn">×</xhtml:span>
+        </xhtml:button>
+        <xhtml:div class="x-dialog-title-text cQzAZFn" __cid="cQzAZFn"/>
+      </xhtml:div>
+      <xhtml:div class="x-dialog-body cQzAZFn" __cid="cQzAZFn"/>
+    </xhtml:div>
+  </span>  
+  <span component="$model/UI2/system/components/justep/windowDialog/windowDialog" xid="windowDialog2" data-bind="component:{name:'$model/UI2/system/components/justep/windowDialog/windowDialog'}" data-config="{&quot;src&quot;:&quot;$model/UI2/ques_xinpei/home.w&quot;}" __cid="cQzAZFn" class="cQzAZFn">
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog-overlay cQzAZFn" __cid="cQzAZFn"/>
+    <xhtml:div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog cQzAZFn" style="display:none;" __cid="cQzAZFn">
+      <xhtml:div class="x-dialog-title cQzAZFn" __cid="cQzAZFn">
+        <xhtml:button class="close cQzAZFn" __cid="cQzAZFn">
+          <xhtml:span __cid="cQzAZFn" class="cQzAZFn">×</xhtml:span>
+        </xhtml:button>
+        <xhtml:div class="x-dialog-title-text cQzAZFn" __cid="cQzAZFn"/>
+      </xhtml:div>
+      <xhtml:div class="x-dialog-body cQzAZFn" __cid="cQzAZFn"/>
+    </xhtml:div>
+  </span>
+</div>
